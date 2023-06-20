@@ -1,28 +1,28 @@
 let projectData = [
     {
-        image: 'assets/images/project-1.png',
-        name: 'project one',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: 'https://www.w3schools.com/jquery/jquery_syntax.asp',
+        image: 'assets/images/icons8-dossier.svg',
+        name: 'My First Portfolio',
+        detail: 'My first portfolio developped using HTML5, CSS3 JS/JQuery and PHP. <br> Based on the tutorial of "Modern Web" on Patreon.com',
+        github: 'https://github.com/manuvf/mavf-portfolio.git',
         live: '#',
-        tags: '#css'
+        tags: '#css, #javascript, #jquery, #php'
     },
-    {
-        image: 'assets/images/project-2.png',
-        name: 'project two',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#html, #javascript, #css, #php'
-    },
-    {
-        image: 'assets/images/project-3.png',
-        name: 'project three',
-        detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-        github: '#',
-        live: '#',
-        tags: '#javascript'
-    },
+    // {
+    //     image: 'assets/images/project-2.png',
+    //     name: 'project two',
+    //     detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
+    //     github: '#',
+    //     live: '#',
+    //     tags: '#html, #javascript, #css, #php'
+    // },
+    // {
+    //     image: 'assets/images/project-3.png',
+    //     name: 'project three',
+    //     detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
+    //     github: '#',
+    //     live: '#',
+    //     tags: '#javascript'
+    // },
 ]
 
 // creating project cards in frontend
