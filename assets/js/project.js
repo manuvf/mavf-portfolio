@@ -2,27 +2,24 @@ let projectData = [
     {
         image: 'assets/images/icons8-dossier.svg',
         name: 'My First Portfolio',
-        detail: 'My first portfolio developped using HTML5, CSS3 JS/JQuery and PHP. <br> Based on the tutorial of "Modern Web" on Patreon.com',
+        detail: 'My first portfolio developed using HTML5, CSS3 JS/JQuery and PHP. <br> Based on the tutorial of "Modern Web" on Patreon.com',
         github: 'https://github.com/manuvf/mavf-portfolio.git',
-        live: '#',
         tags: '#css, #javascript, #jquery, #php'
     },
-    // {
-    //     image: 'assets/images/project-2.png',
-    //     name: 'project two',
-    //     detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-    //     github: '#',
-    //     live: '#',
-    //     tags: '#html, #javascript, #css, #php'
-    // },
-    // {
-    //     image: 'assets/images/project-3.png',
-    //     name: 'project three',
-    //     detail: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, augue quis rutrum auctor, erat est mattis velit, vel luctus est nisl',
-    //     github: '#',
-    //     live: '#',
-    //     tags: '#javascript'
-    // },
+    {
+        image: 'assets/images/icons8-boite.svg',
+        name: 'Project G-Stock',
+        detail: 'On going school project. Developed with NodeJS, Bootstrap, HTML and JavaScript. ',
+        github: 'https://github.com/manuvf/project-gstock',
+        tags: '#nodejs, #javascript, #css, #html'
+    },
+    {
+        image: 'assets/images/icons8-webdesign.png',
+        name: 'Web Page Design',
+        detail: 'My first design for a web page on basic HTML and CSS.',
+        github: 'https://github.com/manuvf/webpage-design',
+        tags: '#html, #css'
+    },
 ]
 
 // creating project cards in frontend
@@ -42,8 +39,7 @@ const createProjectCards = (data) => {
                     <div class="project-body">
                         <h1 class="project-name">${data.name}</h1>
                         <p class="project-detail">${data.detail}</p>
-                        <a href="${data.github}" class="btn">github</a>
-                        <a href="${data.live}" class="btn">see live</a>
+                        <a href="${data.github}" class="btn" target="_blank">github</a>
                     </div>
                 </div>
             </div>

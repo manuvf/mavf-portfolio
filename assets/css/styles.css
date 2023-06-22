@@ -4,16 +4,15 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
 body {
-    margin: auto;
+
     width: 100%;
+    height: 100%;
     position: relative;
     background-color: #fcfcfc;
     font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -39,7 +38,7 @@ body {
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 300;
 }
 
@@ -265,18 +264,18 @@ body {
 
 /*----------------------- time line ------------------------------*/
 
-.timeline-container{
+.timeline-container {
     width: 100%;
     position: relative;
 }
 
-.card-container{
+.card-container {
     width: 100%;
     padding: 0 10%;
     margin-top: -80px;
 }
 
-.card{
+.card {
     display: block;
     width: 45%;
     min-height: 200px;
@@ -288,32 +287,32 @@ body {
     position: relative;
 }
 
-.card-container:nth-child(1) .card{
+.card-container:nth-child(1) .card {
     margin-top: 150px;
     background-color: #fe6666;
 }
 
-.card-container:nth-child(2) .card{
+.card-container:nth-child(2) .card {
     background-color: #ffa654;
 }
 
-.card-container:nth-child(3) .card{
+.card-container:nth-child(3) .card {
     background-color: #18bfa1;
 }
 
-.card-container:nth-child(4) .card{
+.card-container:nth-child(4) .card {
     background-color: #33c0df;
 }
 
-.card-container:nth-child(5) .card{
+.card-container:nth-child(5) .card {
     background-color: #cb3bb4;
 }
 
-.card-container:nth-child(even) .card{
+.card-container:nth-child(even) .card {
     margin-left: auto;
 }
 
-.card-title{
+.card-title {
     width: 100%;
     height: 100%;
     font-weight: 300;
@@ -321,7 +320,7 @@ body {
     padding: 15px;
 }
 
-.card-body{
+.card-body {
     padding: 10px;
     font-size: 1.1rem;
     line-height: 1.8rem;
@@ -329,7 +328,7 @@ body {
     font-weight: 300;
 }
 
-.card-container:nth-child(odd) .card::after{
+.card-container:nth-child(odd) .card::after {
     content: '';
     position: absolute;
     height: 220%;
@@ -339,7 +338,7 @@ body {
     transform: translateY(-50%);
 }
 
-.card-container .card::before{
+.card-container .card::before {
     content: '';
     position: absolute;
     width: 10px;
@@ -351,9 +350,10 @@ body {
     border: 3px solid #F20C58;
 }
 
-.card-container:nth-child(even) .card::before{
+.card-container:nth-child(even) .card::before {
     left: -8%;
 }
+
 /*----------------------- project section ------------------------------*/
 
 #project-section {
@@ -491,6 +491,8 @@ body {
 
 .project-body .btn {
     display: inline-block;
+    width: 100%;
+    text-align: center;
     margin-top: 10px;
     margin-right: 5px;
     padding: 10px 20px;
@@ -556,6 +558,46 @@ textarea {
 .up-arrow {
     width: 3rem;
     height: 3rem;
+}
+
+/*----------------------- email-message ------------------------------*/
+
+.email-msg-container {
+
+    font-size: 25px;
+    margin: 20% auto;
+    width: 600px;
+    height: 100%;
+    position: relative;
+
+}
+
+.email-msg {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*----------------------- Footer ------------------------------*/
+
+.footer {
+    font-size:small;
+    width: 100%;
+    height: 80px;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(128, 128, 128, 0.062);
+}
+
+.footer a {
+    text-decoration: none;
+    color: #F20C58;  
 }
 
 /*----------------------- Full Screen ------------------------------*/
