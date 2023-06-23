@@ -11,6 +11,7 @@ This is my project for my personal portfolio.
 ## Technologies
 
 This portfolio was created with:
+
 * HTML5
 * CSS
 * JavaScript / Jquery
