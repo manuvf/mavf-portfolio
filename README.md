@@ -17,6 +17,6 @@ This portfolio was created with:
 *PHP
 
 ##Sources
-This portfolio is inspired by "Modern Web" tutorial on [Patreon]((https://www.patreon.com/modernweb).
+This portfolio is inspired by "Modern Web" tutorial on [Patreon](https://www.patreon.com/modernweb).
 
 Images and icons by [Icons8.com](https://icons8.com/)
