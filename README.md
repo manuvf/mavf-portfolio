@@ -1,9 +1,9 @@
 # MY PORTFOLIO
 
 ## Table of contents
-*[General info](#general-info)
-*[Technologies](#technologies)
-*[Sources](#sources)
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Sources](#sources)
 
 ## General Info
 This is my project for my personal portfolio.
