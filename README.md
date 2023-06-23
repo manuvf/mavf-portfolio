@@ -11,10 +11,10 @@ This is my project for my personal portfolio.
 ## Technologies
 
 This portfolio was created with:
-*HTML5
-*CSS
-*JavaScript / Jquery
-*PHP
+* HTML5
+* CSS
+* JavaScript / Jquery
+* PHP
 
 ## Sources
 This portfolio is inspired by "Modern Web" tutorial on [Patreon](https://www.patreon.com/modernweb).
